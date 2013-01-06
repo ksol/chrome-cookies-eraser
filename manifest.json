@@ -1,8 +1,8 @@
 {
-  "name": "Localhost cookies eraser",
-  "version": "0.1",
+  "name": "Quick cookie eraser",
+  "version": "0.2",
   "manifest_version": 2,
-  "description": "Quickly delete your localhost cookies",
+  "description": "Quickly delete cookies of the current tab domain",
   "browser_action": {
     "default_icon": "icon.png"
   },
