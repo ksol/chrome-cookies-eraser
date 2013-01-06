@@ -1,6 +1,6 @@
 {
   "name": "Quick cookie eraser",
-  "version": "0.2",
+  "version": "0.3",
   "manifest_version": 2,
   "description": "Quickly delete cookies of the current tab domain",
   "icons": {
