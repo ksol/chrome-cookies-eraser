@@ -7,7 +7,7 @@
     "default_icon": "icon.png"
   },
   "background": {
-    "scripts": ["eraser.js"]
+    "scripts": ["uri_parser.js", "eraser.js"]
   },
   "permissions": [
     "cookies",
