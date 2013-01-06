@@ -20,7 +20,11 @@
   "permissions": [
     "cookies",
     "tabs",
+    "notifications",
     "http://*/*",
     "https://*/*"
+  ],
+  "web_accessible_resources": [
+    "icon_48.png"
   ]
 }

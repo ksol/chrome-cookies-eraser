@@ -1,6 +1,18 @@
-var erase;
+var erase, displayNotification;
 
 chrome.cookies || (chrome.cookies = chrome.experimental.cookies);
+
+notificationSupport = (typeof webkitNotifications !== "undefined" && webkitNotifications !== null ? webkitNotifications.createNotification : void 0) != null;
+
+displayNotification = function(domain) {
+  var icon, notification, text, title;
+  if (!notificationSupport) return;
+  icon = 'icon_48.png';
+  title = 'Cookies erased!';
+  text = "Cookies for " + domain + " erased!";
+  notification = webkitNotifications.createNotification(icon, title, text);
+  return notification.show();
+};
 
 erase = function(tab) {
   var domain, parsed, protocol;
@@ -22,7 +34,8 @@ erase = function(tab) {
     }
     return _results;
   });
-  return console.log("[CRX cookie-eraser] cookies for " + domain + " erased !");
+  console.log("[CRX cookie-eraser] cookies for " + domain + " erased !");
+  return displayNotification(domain);
 };
 
 chrome.browserAction.onClicked.addListener(function() {
