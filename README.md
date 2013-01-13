@@ -29,6 +29,7 @@ This is what, 40 lines of codes? You need a licence for that?
 
 ## Changelog
 
+* `1.0`: Same as 0.3. Bumped version number since it looks stable.
 * `0.3`: New icons, display a notification after cookies are erased. Changed repository name.
 * `0.2`: Button deletes current tab domain cookies
 * `0.1`: Toolbar button to delete localhost cookies
