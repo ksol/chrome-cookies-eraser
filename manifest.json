@@ -4,14 +4,14 @@
   "manifest_version": 2,
   "description": "Quickly delete cookies of the current tab domain",
   "icons": {
-    "16": "icon_16.png",
-    "48": "icon_48.png",
-    "128": "icon_128.png"
+    "16": "resources/icon_16.png",
+    "48": "resources/icon_48.png",
+    "128": "resources/icon_128.png"
   },
   "browser_action": {
     "default_icon": {
-      "19": "icon_19.png",
-      "38": "icon_38.png"
+      "19": "resources/icon_19.png",
+      "38": "resources/icon_38.png"
     }
   },
   "background": {
@@ -25,6 +25,6 @@
     "https://*/*"
   ],
   "web_accessible_resources": [
-    "icon_48.png"
+    "resources/icon_48.png"
   ]
 }
