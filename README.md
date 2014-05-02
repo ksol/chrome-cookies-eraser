@@ -25,7 +25,7 @@ Please explain a use-case if you're submitting a feature.
 
 ## Licence
 
-This is what, 40 lines of codes? You need a licence for that?
+See [LICENCE.md](https://github.com/ksol/chrome-cookies-eraser/blob/master/LICENCE.md).
 
 ## Changelog
 
