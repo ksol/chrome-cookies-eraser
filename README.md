@@ -1,3 +1,5 @@
+# !! Unmaintained !!
+
 # Chrome extension : quick cookies eraser
 
 I needed a way to quickly delete my localhost cookies without having to go to the settings each time. Then I realized I needed the same thing for non-localhost sites (a staging env, for instance).
